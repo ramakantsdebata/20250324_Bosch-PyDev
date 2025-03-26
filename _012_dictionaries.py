@@ -42,6 +42,7 @@ emp = {
     1: "Manish",
     2: "Abhijeet",
     3: "Rakesh",
+    4: "Parag",
 }
 
 print(f"{emp=}")
