@@ -67,3 +67,22 @@ print(st1 >= st2)
 print(st1.isdisjoint(st2))
 
 print((st1 & st2) == set())
+
+
+##########################################
+
+def remove_key(sObj, key):
+    if key in sObj:
+        sObj.remove(key)
+
+
+
+#---------------------------------
+
+st = {1, 2, 3, 4, 5}
+
+remove_key(st, 4)
+print(f"{st=}")
+
+
+
