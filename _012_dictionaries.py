@@ -45,4 +45,37 @@ emp = {
     4: "Parag",
 }
 
+lst1 = [1, 2, 3, 4]
+for val in lst1:
+    print(val)
+
+st1 = set(emp)
+st1 = set(emp.keys())
+print(f"{st1=}")
+
+print("Printing the dictionary")
+for val in emp.keys():
+    print(val)
+
+for val in emp.values():
+    print(val)
+
+for key, val in emp.items():
+    print(key, "-->", val)
+
+l1 = list(emp.values())
+print(f"{l1=}")
+
+
 print(f"{emp=}")
+
+del emp[4]
+print(f"{emp=}")
+print("Popped the emp ", emp.pop(2))
+print(f"{emp=}")
+print("Popped the emp ", emp.popitem())
+
+
+dt4["c"] = [1,2]
+dt4.get("c").append(3)
+print(f"{dt4=}")
