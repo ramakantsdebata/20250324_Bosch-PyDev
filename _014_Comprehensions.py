@@ -37,10 +37,28 @@ print(dir(list))
 print("+"* 40, "\n")
 obj = 10
 public_members = [member    for member in dir(obj)     if member.startswith("_") is False]
-print(public_members)
+print(f"[{len(public_members)}]", public_members)
 # print(str(public_members))
 # print(public_members.__str__())
 
 print("+"* 40, "\n")
-public_methods = [member    for member in dir(obj)     if member.startswith("_") is False and callable(HOMEWORK)]
-print(public_methods)
+
+# callable(int.conjugate)
+# callable(getattr(int, "conjugate"))
+public_methods = [member    for member in dir(obj)     if member.startswith("_") is False and callable(getattr(obj, member))]
+print(f"[{len(public_methods)}]", public_methods)
+
+
+""" # FEEL FREE TO IGNORE THIS
+def hello1():
+    print("Hello")
+
+hello2 = 10
+
+print(type(hello1), type(hello2))
+print(callable(hello1), callable(hello2))
+
+
+hello1()
+hello1.__class__.__call__(hello1)
+"""
