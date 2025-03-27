@@ -45,6 +45,7 @@ print("+"* 40, "\n")
 
 # callable(int.conjugate)
 # callable(getattr(int, "conjugate"))
+public_methods = [member    for member in dir(obj)     if member.startswith("_") is False and callable(member)]
 public_methods = [member    for member in dir(obj)     if member.startswith("_") is False and callable(getattr(obj, member))]
 print(f"[{len(public_methods)}]", public_methods)
 

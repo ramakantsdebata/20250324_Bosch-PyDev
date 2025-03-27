@@ -2,6 +2,12 @@
 
 ## Further Reading
 * SOLID Principles
+* Closures
+* Decorators
+    * Fn decorating Fn
+    * Cls decorating Fn
+    * Fn decorating Cls
+    * Cls decorating Cls
 
 ## Links
 * [Training Feedback](https://docs.google.com/forms/d/e/1FAIpQLSesxCL6B2m53ZhMaO37v3W5Mqq4eauNhXQktfjVpSo6V1Cplw/viewform?usp=sharing)
