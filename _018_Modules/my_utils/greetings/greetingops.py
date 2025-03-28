@@ -1,3 +1,5 @@
+__all__ = ['greet', 'greetName', 'greetInteract']
+
 def greet():
     print("Hi there")
 
@@ -16,4 +18,15 @@ def TestAll():
     greetName("Test")
     greetInteract()
 
-TestAll()
+def TestSmoke():
+    greet()
+    greetName("Test")
+
+print((f"{__name__=}"))
+
+def print(str):
+    pass
+
+if __name__ == "__main__":
+    TestAll()
+    TestSmoke()
