@@ -19,5 +19,7 @@
     * [Format String](https://docs.python.org/3/library/string.html#format-string-syntax)
 * [Exception Hierarchy](https://docs.python.org/3/library/exceptions.html#exception-hierarchy)
 
+* [Post Training Assessment](https://docs.google.com/forms/d/e/1FAIpQLSdmUM8ZsHeszhGZGnlPfghiDh-vgJyQk88k8DhAcxAhEu05hg/viewform?usp=sharing)
+
 ## Contact
 * ramakant.s.debata@gmail.com
